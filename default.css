@@ -1,0 +1,66 @@
+:root{
+    --mainColor: #eaeaea;
+    --secondaryColor:#fff;
+
+    --bordorColor: #c1c1c1;
+
+    --mainText:black;
+    --secondaryText:#4b5156;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+    color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+}
+
+p, li, span, label, input, textarea{
+    color: var(--secondaryText);
+    font-family: 'Roboto Mono', monospace;
+}
+
+a{
+    text-decoration: none;
+    color: #17a2b8;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.s1{
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--bordorColor);
+    overflow: auto;
+}
+
+.s2{
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--bordorColor);
+    overflow: auto;
+}
+
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.greeting-wrapper{
+    display: grid;
+    text-align: center;
+    align-content: center;
+    border: 2px dashed lightcoral;
+    min-height: 15em;
+}
+
+@media screen and (max-with: 1200px) {
+    .main-container{
+        width: 95%;
+    }
+}
