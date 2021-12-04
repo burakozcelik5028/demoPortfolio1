@@ -11,10 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='default.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='default.css'>
+    <link id="theme-style" rel='stylesheet' type='text/css' media='screen' href=''>
 
     <script src='main.js'></script>
 </head>
@@ -30,18 +32,15 @@
             <div class="intro-wrapper">
                 
                 <div class="nav-wrapper">
+
                     <div class="dots-wrapper">
-                        <div id="dot-1" class="browser-dot">
 
-                        </div>
+                        <div id="dot-1" class="browser-dot"></div>
 
-                        <div id="dot-2" class="browser-dot">
+                        <div id="dot-2" class="browser-dot"></div>
 
-                        </div>
+                        <div id="dot-3" class="browser-dot"></div>
 
-                        <div id="dot-3" class="browser-dot">
-
-                        </div>
                     </div>
 
                     <ul id="navigation">
@@ -55,10 +54,10 @@
                     <h5 style="text-align: center; line-height: 0; ">Personelize Theme</h5>
                     
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
 
                     <p id="settings-note">*Theme settings will be saved for <br>your next visit</p>
@@ -119,7 +118,7 @@
                     <h4>Top Expertise</h4>
 
                     <p> Fullstack developer with Java Spring Boot, Now learning React and TypeScript.
-                        <a target="_blank" href="documents/Burak_Özçelik_CV.pdf">Download My Reaume</a>
+                        <a target="_blank" href="documents/Burak_Özçelik_CV.pdf"> &gt&gt Download My Resume &lt&lt</a>
                     </p>
 
                     <div id="skills">
@@ -150,11 +149,11 @@
                 <div class="social-links">
                     <img id="social_img" src="pictures/social.jpg">
                     <h3>Find Me On Youtube - Instagram - GitHub</h3>
-                    <a target="_blank" href="https://www.youtube.com/c/BurakOzcelik5028/">YouTube: @burakozcelik5028</a>
+                    <a target="_blank" href="https://www.youtube.com/c/BurakOzcelik5028/">&gt&gt YouTube: @burakozcelik5028 &lt&lt</a>
                     <br>
-                    <a target="_blank" href="https://www.instagram.com/mrbeard.tr/">Instagram: @mrbeard.tr</a>
+                    <a target="_blank" href="https://www.instagram.com/mrbeard.tr/">&gt&gt Instagram: @mrbeard.tr &lt&lt</a>
                     <br>
-                    <a target="_blank" href="https://github.com/burakozcelik5028/">GitHub: @burakozcelik5028</a>
+                    <a target="_blank" href="https://github.com/burakozcelik5028/">&gt&gt GitHub: @burakozcelik5028 &lt&lt</a>
                 </div>
 
             </div>
@@ -174,7 +173,7 @@
                         <div class="post-preview">
                             <h6 class="post-title">Title</h6>
                             <p class="post-intro">text area</p>
-                            <a target="_blank" href="https://github.com/burakozcelik5028?tab=repositories/">Go to My GitHub Repositories</a>
+                            <a target="_blank" href="https://github.com/burakozcelik5028?tab=repositories/">&gt&gt Go to My GitHub Repositories &lt&lt</a>
                         </div>        
                     </div>
                 </div>
@@ -185,7 +184,7 @@
                         <div class="post-preview">
                             <h6 class="post-title">Title</h6>
                             <p class="post-intro">text area</p>
-                            <a target="_blank" href="https://github.com/burakozcelik5028?tab=repositories/">Go to My GitHub Repositories</a>
+                            <a target="_blank" href="https://github.com/burakozcelik5028?tab=repositories/">&gt&gt Go to My GitHub Repositories &lt&lt</a>
                         </div>        
                     </div>
                 </div>
@@ -196,7 +195,7 @@
                         <div class="post-preview">
                             <h6 class="post-title">Title</h6>
                             <p class="post-intro">text area</p>
-                            <a target="_blank" href="https://github.com/burakozcelik5028?tab=repositories/">Go to My GitHub Repositories</a>
+                            <a target="_blank" href="post.html">&gt&gt Go to My GitHub Repositories &lt&lt</a>
                         </div>        
                     </div>
                 </div>
@@ -232,6 +231,8 @@
 
         </div>
     </section>
+
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
